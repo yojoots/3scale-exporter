@@ -2,9 +2,9 @@
 
 ## Overview
 
-This is a bespoke export script to scrape the data out of an existing site that was built or managed through the 3scale CMS. Though there have been discussions and rumblings about making a real, official API available to do this sort of thing, at the time of writing such an API is not available.
+This is a bespoke export script to scrape the data out of an existing site that was built or managed through the 3scale CMS. This was originally built to help with version control and source management of 3scale website data through a parallel GitHub repository. Though there have been discussions and rumblings about RedHat/3scale providing a real, official API to do this sort of thing, at the time of writing no such API is available.
 
-**DISCLAIMER**: this is not an official tool of any kind. Because of that, and the fact that the 3scale CMS tool, as well as its underlying API, may change at any moment, without any guarantee of backwards compatibility, I cannot in good faith recommend this tool for production use.
+**DISCLAIMER**: this is not an official tool of any kind, and if 3scale changes their UI or API, functionality might be impacted. With that said, because this solely handles exportation and doesn't make or save any changes to the CMS content, there is hopefully not much potential for harm.
 
 
 ## Setup:
